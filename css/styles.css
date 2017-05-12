@@ -2,24 +2,35 @@
   background-color: green;
 }
 
-/*header {
+/*.image {
   height: 100vh;
-  max-width: 1500px;
+  background-image: url(img/wutang-pizza.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }*/
 
-h1{
-  text-align: right;
-  font-size: 80px;
-  /*line-height: 75%;*/
+#image img{
+  max-width: 100%;
 }
 
-h3 {
+.heading-block{
+
+
+}
+
+h1{
+  padding-top: 20px;
   text-align: right;
-  font-size: 25px;
+  font-size: 100px;
+  line-height: 80%;
+  /*background-color: yellow;*/
+}
+
+h4 {
+  text-align: right;
+  font-size: 22px;
 }
 
 
@@ -29,6 +40,13 @@ html {
 
 body {
   background: inherit;
+}
+
+
+.heading-block{
+  margin: auto;
+  width: 75%;
+  padding-right: 5%;
 }
 
 #hidden-jewels {
