@@ -16,8 +16,11 @@ Website for a pizza company where a user can choose one or more individual toppi
 - add dropdown input to form for user to select pie size, store pie size in variable
   - input: user selects 12" small from dropdown; output: console log pizzaSize = '12" small'
 
-- create pizza object constructor with properties for topping and size.  store inputs from user in these properties. store new pizza object in variable newPizza
+- create pizza object constructor with properties for toppings (an array) and size.  store inputs from user in these properties. store new pizza object in variable newPizza
   - input: [cheese, hot lava], 12" small; output: console log newPizza = [cheese, hot lava], 12" small.
+
+- create prototype method for the cost of a pizza based on the selections chosen. base price for a small with no toppings is $5. each topping is $1 and each upgrade in size is $2.
+  - input: [cheese, hot lava], 14" medium; output: console log newPizza.Cost() = 9
 
 ## Setup/Installation Requirements
 
