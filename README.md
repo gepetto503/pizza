@@ -13,6 +13,8 @@ Website for a pizza company where a user can choose one or more individual toppi
 - create checkbox form for toppings, store toppings in array
   - input: user checks cheese, hot lava, then clicks submit button; output: console log toppingArray = ["cheese," "hot lava"]
 
+- add dropdown input to form for user to select pie size, store pie size in variable
+  - input: user selects 12" small from dropdown; output: console log pizzaSize = '12" small'
 
 
 ## Setup/Installation Requirements
