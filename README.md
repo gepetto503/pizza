@@ -22,6 +22,9 @@ Website for a pizza company where a user can choose one or more individual toppi
 - create prototype method for the cost of a pizza based on the selections chosen. base price for a small with no toppings is $5. each topping is $1 and each upgrade in size is $2.
   - input: [cheese, hot lava], 14" medium; output: console log newPizza.Cost() = 9
 
+- display cost to user
+  - input: [cheese, hot lava], 14" medium; output: "your pizza costs $9"
+
 ## Setup/Installation Requirements
 
 * _Clone https://github.com/gepetto503/pizza repository to your machine_

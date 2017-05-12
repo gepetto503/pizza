@@ -5,3 +5,7 @@
 .jumbotron{
   text-align: center;
 }
+
+#hidden-jewels {
+  display: none;
+}
