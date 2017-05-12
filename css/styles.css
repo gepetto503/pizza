@@ -2,30 +2,16 @@
   background-color: green;
 }
 
-/*.image {
-  height: 100vh;
-  background-image: url(img/wutang-pizza.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}*/
-
 #image img{
   max-width: 100%;
 }
 
-.heading-block{
-
-
-}
 
 h1{
   padding-top: 20px;
   text-align: right;
   font-size: 100px;
   line-height: 80%;
-  /*background-color: yellow;*/
 }
 
 h4 {
@@ -47,6 +33,40 @@ body {
   margin: auto;
   width: 75%;
   padding-right: 5%;
+}
+
+.wu-style{
+}
+
+#wu-logo{
+  max-width: 200px;
+}
+
+#ghostface{
+  height: 200px;
+}
+
+/*.results-styles {
+  background-size: 100%;
+  height: 300px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("img/wu-logo.png");
+  /*border: 10px solid rgba(242, 80, 80, .7);
+  border-radius: 100%;*/
+}
+
+label.dropdown {
+  width: 75%;
+}
+
+
+.container {
+  padding-bottom: 100px;
+}
+
+#pizza-form{
+  padding: 0 80px 40px 80px;
 }
 
 #hidden-jewels {
