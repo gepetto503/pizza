@@ -2,8 +2,33 @@
   background-color: green;
 }
 
-.jumbotron{
-  text-align: center;
+/*header {
+  height: 100vh;
+  max-width: 1500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}*/
+
+h1{
+  text-align: right;
+  font-size: 80px;
+  /*line-height: 75%;*/
+}
+
+h3 {
+  text-align: right;
+  font-size: 25px;
+}
+
+
+html {
+  background-color: #76e0d7;
+}
+
+body {
+  background: inherit;
 }
 
 #hidden-jewels {

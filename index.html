@@ -9,33 +9,51 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h1>Pizza Place</h1>
-        <h3>Place Your Order</h3>
+      <div class="row" id="firstrow">
+        <div id="stuff-1" class="col-md-1">
+          <p>stuff 1</p>
+        </div>
+        <div id="header-column" class="col-md-8">
+          <h1>Wu Tang Pizzeria</h1>
+        </div>
+        <div id="stuff 2" class="col-md-3">
+          <p>stuff 2</p>
+        </div>
       </div>
-      <form id="pizza-form">
-        <div class="form-group">
-          <p>select toppings, bro</p>
-          <input type="checkbox" name="toppings" value="cheese">cheese<br>
-          <input type="checkbox" name="toppings" value="pepperoni">pepperoni<br>
-          <input type="checkbox" name="toppings" value="hot-lava">hot lava<br>
-          <input type="checkbox" name="toppings" value="artichoke-hearts">artichoke hearts<br>
+      <div class="row" id="secondrow">
+        <div class="col-md-1">stuff 3</div>
+        <div class="col-md-8">
+          <h3>you need to diversify your toppings</h3>
         </div>
-        <div class="form-group">
-          <select class="form-control" id="pizza-size">
-            <option>12" small</option>
-            <option>14" medium</option>
-            <option>16" large</option>
-          </select>
+        <div class="col-md-3">stuff 4</div>
+      </div>
+      <div class="row" id="thirdrow">
+        <div class="col-md-12">
+          <form id="pizza-form">
+            <div class="form-group">
+              <p>select toppings, bro</p>
+              <input type="checkbox" name="toppings" value="cheese">cheese<br>
+              <input type="checkbox" name="toppings" value="pepperoni">pepperoni<br>
+              <input type="checkbox" name="toppings" value="hot-lava">hot lava<br>
+              <input type="checkbox" name="toppings" value="artichoke-hearts">artichoke hearts<br>
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="pizza-size">
+                <option>12" small</option>
+                <option>14" medium</option>
+                <option>16" large</option>
+              </select>
+            </div>
+            <button type="submit">Place Order</button>
+          </form>
+          <div id="hidden-jewels">
+            <h3>Your Pizza Costs $<span class="your-pizza-cost"></span>!<br><br>
+            $<span class="your-pizza-cost"></span>?! THAT'S OUTRAGEOUS!!</h3>
+          </div>
         </div>
-        <button type="submit">Place Order</button>
-      </form>
-      <div id="hidden-jewels">
-        <h3>Your Pizza Costs $<span class="your-pizza-cost"></span>!<br>
-        <br>
-        $<span class="your-pizza-cost"></span>?!  THAT'S OUTRAGEOUS!!</h3>
-    </div>
+      </div>
     </div> <!-- end container -->
-
   </body>
 </html>
+
+<!-- <img src="css/img/wutang-pizza.jpg" alt="pictures of rza and gza from wu tang along with a picture of a slize of pizza"/> -->
