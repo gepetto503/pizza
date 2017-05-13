@@ -1,11 +1,69 @@
-.green {
-  background-color: green;
+html {
+  background-color: #76e0d7;
+  margin: 0;
 }
 
-.jumbotron{
-  text-align: center;
+body {
+  background: inherit;
+  padding: 0;
+}
+
+header {
+  /*background-image: url(img/wutang-pizza.jpg);*/
+  height: 100%;
+/*
+  background-size: cover;*/
+}
+
+h1{
+  padding-top: 20px;
+  text-align: right;
+  font-size: 100px;
+  line-height: 80%;
+}
+
+h4 {
+  text-align: right;
+  font-size: 22px;
+}
+
+
+#image img{
+  max-width: 100%;
+
+}
+
+#wu-logo{
+  max-width: 200px;
+}
+
+#ghostface{
+  height: 200px;
+}
+
+#pizza-form{
+  padding: 0 80px 40px 80px;
 }
 
 #hidden-jewels {
   display: none;
+}
+
+.heading-block{
+  margin: auto;
+  width: 75%;
+  padding-right: 5%;
+}
+
+label.dropdown {
+  width: 75%;
+}
+
+
+.container {
+  padding-bottom: 100px;
+}
+
+.green {
+  background-color: green;
 }
